@@ -1,0 +1,35 @@
+
+.line {
+  height: 6px;
+  width: 100px;
+  background-color:#1a252f;
+}
+i {
+  font-size: 20px;
+}
+
+.form-control:focus {
+  padding: 10px;
+  border: 0px;
+  border-bottom: 1px solid #dee2e6  !important;
+  box-shadow: none;
+}
+.btn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px;
+}
+
+.btn:focus {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px;
+}
+.contactinbut{
+  color: #1abc9c;
+  height: 13px;
+  display: none;
+}
+.btn{
+  background-color: #1abc9c;
+}

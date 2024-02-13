@@ -1,0 +1,23 @@
+<div class="container my-3 ">
+  <div class="container text-center pt-5" >
+    <h1>PORTFOLIO COMPONENT</h1>
+    <div class="d-flex justify-content-center align-items-center mt-5 ">
+      <div class="line me-3"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="line ms-3"></div>
+    </div>
+  <div class="row g-3 mb-5 mt-2" >
+      <div class="col-md-4 " *ngFor="let img of imggs" >
+          <div  class=" imges position-relative " (click)="openmodal(imgg)">
+                  <img #imgg [src]="img" class="w-100"  >
+                  <div  class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus icon"></i>
+                  </div>
+          </div>
+      </div>
+  </div>
+  <div  class="model position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center d-none" [class]="">
+    <img  >
+  </div>
+</div>
+

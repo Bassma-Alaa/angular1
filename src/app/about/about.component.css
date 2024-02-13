@@ -1,0 +1,18 @@
+.srction1 {
+  height: 80vh;
+  background-color: #1abc9c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  height: 6px;
+  width: 100px;
+  background-color:white;
+}
+
+i {
+  font-size: 20px;
+}
+

@@ -1,0 +1,20 @@
+.line {
+  height: 6px;
+  width: 100px;
+  background-color:white;
+}
+.title{
+  color: white;
+  font-size: 40px;
+}
+i {
+  font-size: 20px;
+  color: white;
+}
+.homebg{
+  background-color:#1abc9c;
+  height: 90vh;
+}
+.contact{
+  color:white;
+}
