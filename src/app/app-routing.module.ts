@@ -8,6 +8,7 @@ import { PORTFOLIOComponent } from './portfolio/portfolio.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'home',pathMatch:'full'},
   {path:'home',component:HomeComponent,title:'home'},
   {path:'footer',component:FooterComponent,title:'FOOTER'},
   {path :'portfolio' , component:PORTFOLIOComponent , title:'PORTFOLIO'},
